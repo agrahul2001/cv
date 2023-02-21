@@ -14,10 +14,24 @@ hr{
 }
 table{
    style="background-color:#222222;color:white;"	       
-}	       
+}
+	.my_name{
+	 color:aqua;
+         animation-direction:alternate;
+         animation-duration:1000ms;
+         animation-iteration-count:infinite;
+         animation-name:blink;
+	}
+	@keyframes blink{
+		from {
+			opacity:1;
+		}
+		to{
+			opacity:0;
+		}
+	}
 </style>	     
 <body>
-	<strong>About my self</strong>
 <hr size ="6">
 <div class="topnav">
        <a style="color:pink;" class="active"href="https://rahul_agarwal_cv/cv/">Home</a>&nbsp;
@@ -30,7 +44,7 @@ table{
 <table>
 <tr>
 <td><img style="background-color:white; border="0px";" src="images/rahul2.png"height="300px"width="300px"alt="rahul agarwal"></td>
-<td style="margin-left=100px"><h1 style="color:red;">About My Self</h1>
+<td style="margin-left=100px"><h1 style="color:red;"><span class="my_name">About My Self</span></h1>
 <p><strong>My name is Rahul Agarwal<strong></p>			  
 <p><em>Son of <strong>Mr.Babulal gupta</strong>&<strong>Sunita gupta.</strong></em></p>
 <p>My goal is to achieve as many achievement as i can.I just want to be excellent in codding and I just want to give my best to make all my dreams come true ,so that my family will be proud of me as they are having a capable son like me!!!</p> 			  
